@@ -1,0 +1,115 @@
+/* Theme Name: BMBC Church Theme
+    Theme URI: 
+    Author: Eric Williams
+    Author URI: hhtps://www.ericwilliamsjr.dev
+    Description: Theme designed for church
+    Version: 1.0
+    Liscense: GNU General Public License v2 or later
+    License URI: https://www.gnu.org/licenses/gpl-2.0.html
+    Tags: CSS Grid, Flexbox ready, mobile first, Bootstrap, church theme
+    Text Domain: church
+*/
+html{
+    box-sizing: border-box;
+    font-size: 100%; 
+}
+*,*:before, *:after{
+    box-sizing: inherit;
+}
+.container{
+    max-width: 120rem;
+    width: 95%;
+    margin: 0 auto;
+}
+.navbar{
+    box-shadow: 0px 1px 10px #999;
+}
+.custom-link{
+    color: #5F0404;
+}
+.row{
+    margin:15 15;
+}
+.times{
+    font-size: 1rem;
+}
+.jumbotron{
+    position: relative;
+    background-image: url('img/james-coleman-p4lgsiyGW0s-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    margin: 2rem auto;
+}
+.jumbotron:after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.65);
+    content: "";
+}
+.textbox{
+    color: #fff;
+    position: relative;
+	width: 100%;
+    z-index: 2;
+}
+
+.page.no-sidebars{
+    max-width: 80rem;
+    margin:0 auto;
+}
+.featured-image {
+   margin: 2rem auto;
+    }
+footer{
+    background-color: #5F0404;
+}
+footer a{
+    color: #fff;
+}
+/* Header Parallax Element Style*/ 
+.paral {
+    position: relative;
+    min-height: 400px;
+    
+    background-size: cover;
+    background-position: 50% 50%;
+    }
+    /* Paragraph for Parallax Section */ 
+.paral p {
+    position: relative;
+    
+    color:#000;
+    text-align: center;
+    z-index: 2;
+    }
+    
+    /* Heading for Parallax Section */ 
+    .paral h1 {
+    color: #000;
+    font-size: 3rem;
+    text-align: center;
+    position: relative;
+    line-height: 50px;
+    z-index: 2;
+    }
+    .paralsec {
+        
+        background-image: none;
+        }
+        .paralsec:after{
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.65);
+            content: "";
+        }
+   .pastor{
+       position: relative;
+       z-index: 2;
+   }
